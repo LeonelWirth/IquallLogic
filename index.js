@@ -35,7 +35,7 @@ for(let i = 0; i < carta.length; i++){ // Recorro la carta y capturo la cantidad
 }
 
 
-// PASO 4: Comparo los contadores respectivos de letras, buscando que los contadores de vocales del artículo sean mayores o iguales que los de la carta.
+// PASO 4: Comparo los contadores respectivos de letras, buscando que los contadores de letras del artículo sean mayores o iguales que los de la carta.
 var error = 0;
 for(let i = 0; i < abecedario.length; i++){
     if(abecedarioArticulo[i] < abecedarioCarta[i]){ // Comparo la cantidad de letras de ambos
